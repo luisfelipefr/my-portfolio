@@ -94,7 +94,7 @@ export const NavMenu = styled.ul<INav>`
     left: ${(props) => (props.click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: var(--background);
   }
 `;
 
