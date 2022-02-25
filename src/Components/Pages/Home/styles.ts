@@ -7,7 +7,6 @@ export const Background = styled.div`
 `;
 
 export const Container = styled.div`
-  height: 100vh;
   margin: 0 auto;
   max-width: 85.75rem;
   height: 100vh;
