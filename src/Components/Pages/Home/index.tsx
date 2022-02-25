@@ -1,9 +1,11 @@
 import React from "react";
 import { SocialMedia } from "../../SocialMedia";
+import { About } from "../../About";
 import { Background, Container, Subtitle, Title } from "./styles";
 
 export function Home() {
   return (
+    <>
     <Background>
       <Container>
       <p className="styled">introducing</p>
@@ -13,6 +15,8 @@ export function Home() {
       <p>I&#x2019;m a Front-end developer.</p>
     </Container>
     </Background>
+    <About/>
+    </>
     
   );
 }
