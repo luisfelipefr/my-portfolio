@@ -10,7 +10,7 @@ interface INav {
 
 export const Nav = styled.div`
   position: absolute;
-  height: 80px;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
