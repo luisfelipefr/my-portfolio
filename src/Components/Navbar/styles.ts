@@ -17,6 +17,7 @@ export const Nav = styled.div`
   z-index: 10;
   width: 100%;
   margin-bottom: 1rem;
+  align-items: center;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
