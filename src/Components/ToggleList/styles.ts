@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
- 
   margin: 39px 22px 40px 0;
 `;
 

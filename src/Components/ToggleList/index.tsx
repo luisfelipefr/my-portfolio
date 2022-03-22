@@ -5,11 +5,12 @@ interface List {
   Arrow: string;
   Text: string;
 }
-export function ToggleList({Arrow = "", Text = ""}: List) {
+
+export function ToggleList(props: List) {
   return (
     <Container>
-      <Title>{Arrow}</Title>
-      <Technologies>{Text}</Technologies>
+      <Title>{props.Arrow}</Title>
+      <Technologies>{props.Text}</Technologies>
     </Container>
   );
 }
