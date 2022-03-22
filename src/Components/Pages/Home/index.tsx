@@ -1,11 +1,11 @@
 import React from "react";
 import { SocialMedia } from "../../SocialMedia";
-import { About } from "../../About";
+import { About } from "../About";
 import { Container, Subtitle, Title } from "./styles";
 
 export function Home() {
   return (
-    <Container>
+    <Container id="Home">
       <p className="styled">introducing</p>
       <Title className="titleStyled">Hello</Title>
       <Title>I'm Luis Felipe.</Title>

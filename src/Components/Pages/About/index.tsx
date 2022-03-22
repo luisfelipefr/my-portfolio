@@ -1,10 +1,10 @@
 import React from "react";
-import { ToggleList } from "../ToggleList";
+import { ToggleList } from "../../ToggleList";
 import { Container, Text } from "./styles";
 
 export function About() {
   return (
-    <Container>
+    <Container id="About">
       <h1>
         <span>02.</span> About Me
       </h1>

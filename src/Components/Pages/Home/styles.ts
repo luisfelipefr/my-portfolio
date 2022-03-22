@@ -15,7 +15,7 @@ export const Container = styled.div`
   p {
     margin-top: 2.6rem;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.12rem;
   };
   p.styled {
     color: var(--green);
