@@ -1,6 +1,11 @@
 import styled from "styled-components";
 import bgImage from "../../../assets/images/background.png"
 
+export const Background = styled.div`
+  background: url(${bgImage}) no-repeat center;
+  background-size: cover;
+
+`
 export const Container = styled.div`
   margin: 0 auto;
   max-width: 85.75rem;
@@ -10,7 +15,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-left: 1.5rem;
-  background: url(${bgImage}) no-repeat center ;
+  
   
   p {
     margin-top: 2.6rem;
