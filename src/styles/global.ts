@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import backgroundImg from "../assets/images/bg_teste.png"
+
 export const GlobalStyle = createGlobalStyle`
 
   :root {
