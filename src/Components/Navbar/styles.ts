@@ -1,15 +1,14 @@
-import { FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";FaBars
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 
 interface INav {
   click: boolean;
-
 }
 
 export const Nav = styled.div`
-  position: absolute;
+  position: fixed;
   min-height: 80px;
   display: flex;
   justify-content: space-between;
@@ -18,8 +17,11 @@ export const Nav = styled.div`
   width: 100%;
   margin-bottom: 1rem;
   align-items: center;
+  background: var(--background);
+  box-shadow: 0px 2px 11px 2px #000;
   /* Third Nav */
   /* justify-content: flex-start; */
+ 
 `;
 
 export const NavLink = styled.a`
@@ -66,8 +68,9 @@ export const Bars = styled(FaBars)`
   margin-top: 0.5rem;
   color: var(--shape);
   @media screen and (max-width: 768px) {
+    
     display: block;
-    position: absolute;
+    
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);

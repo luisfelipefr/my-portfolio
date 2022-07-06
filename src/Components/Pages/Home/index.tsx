@@ -1,6 +1,4 @@
 import React from "react";
-import { SocialMedia } from "../../SocialMedia";
-import { About } from "../About";
 import { Background, Container, Subtitle, Title } from "./styles";
 
 export function Home() {

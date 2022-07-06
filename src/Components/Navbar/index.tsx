@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
-import { Nav, NavLink, Bars, NavMenu, NavBtn, MobileIcon, NavItem, NavLogo } from "./styles";
+
+import { Nav, NavLink,NavMenu, MobileIcon, NavItem, NavLogo } from "./styles";
 
 
 export function Navbar() {
