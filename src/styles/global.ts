@@ -56,4 +56,15 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    height: 4px;
+    background-color: var(--green);
+    border-radius: 0.5rem;
+  }
 `
