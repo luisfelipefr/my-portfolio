@@ -27,8 +27,8 @@ export function Navbar() {
   window.addEventListener("resize", showButton);
   return (
     <Nav>
-      <NavLogo href="" ref={drawerRef} onClick={closeMobileMenu} >
-        <h1>L</h1>
+      <NavLogo ref={drawerRef} onClick={closeMobileMenu} >
+        <h1>LF</h1>
       </NavLogo>
       <MobileIcon onClick={handleClick}>
         {click ? <FaTimes /> : <FaBars />}

@@ -24,6 +24,22 @@ export const Nav = styled.div`
  
 `;
 
+export const NavLogo = styled.a`
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin-right: 1rem;
+  height: 100%;
+  cursor: pointer;
+  &:hover {
+    color: var(--green);
+  }
+`;
+
 export const NavLink = styled.a`
   color: #fff;
   display: flex;
@@ -44,22 +60,6 @@ export const NavLink = styled.a`
   &:hover {
     color: var(--green);
     transition: all 0.3s ease;
-  }
-`;
-
-export const NavLogo = styled.a`
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  margin-right: 1rem;
-  height: 100%;
-  cursor: pointer;
-  &:hover {
-    color: var(--green);
   }
 `;
 
