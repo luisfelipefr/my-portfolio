@@ -22,11 +22,11 @@ export function About() {
           Here are a few technologies I&rsquo;ve been working with recently:
         </Text>
         <div className="list">
-          <ToggleList Arrow=">" Text="JavaScript(ES6+)" />
-          <ToggleList Arrow=">" Text="TypeScript" />
-          <ToggleList Arrow=">" Text="Styled-component" />
-          <ToggleList Arrow=">" Text="React Native" />
-          <ToggleList Arrow=">" Text="ReactJS" />
+          <ToggleList Title=">" Text="JavaScript(ES6+)" />
+          <ToggleList Title=">" Text="TypeScript" />
+          <ToggleList Title=">" Text="Styled-component" />
+          <ToggleList Title=">" Text="React Native" />
+          <ToggleList Title=">" Text="ReactJS" />
         </div>
       </div>
     </Container>
