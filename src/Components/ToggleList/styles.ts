@@ -16,7 +16,6 @@ export const Technologies = styled.p`
   font-size: 0.875rem;
   margin-left: 13px;
   font-weight: 400;
-  cursor: pointer;
   &:hover {
     color: var(--green);
   }
