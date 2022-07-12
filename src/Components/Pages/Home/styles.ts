@@ -15,7 +15,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-left: 1.5rem;
-  
+
   
   p {
     margin-top: 2.6rem;
