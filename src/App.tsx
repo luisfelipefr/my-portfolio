@@ -9,8 +9,8 @@ export function App() {
   return (
     <>
       <GlobalStyle />
+      <Navbar />
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/emailsent" element={<Successfully />} />
