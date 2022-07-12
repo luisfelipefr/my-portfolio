@@ -35,22 +35,22 @@ export function Navbar() {
       </MobileIcon>
       <NavMenu click={click} onClick={handleClick} >
         <NavItem>
-          <NavLink href="#Home" onClick={closeMobileMenu}>
+          <NavLink href="/#Home" onClick={closeMobileMenu}>
             01.Home
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#About" onClick={closeMobileMenu}>
+          <NavLink href="/#About" onClick={closeMobileMenu}>
             02.About
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#Work" onClick={closeMobileMenu}>
+          <NavLink href="/#Work" onClick={closeMobileMenu}>
             03.Work
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#Contact" onClick={closeMobileMenu}>
+          <NavLink href="/#Contact" onClick={closeMobileMenu}>
             04.Contact
           </NavLink>
         </NavItem>

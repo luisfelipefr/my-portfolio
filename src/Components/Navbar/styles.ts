@@ -34,7 +34,7 @@ export const NavLogo = styled.a`
   padding: 0 1rem;
   margin-right: 1rem;
   height: 100%;
-  cursor: pointer;
+  
   &:hover {
     color: var(--green);
   }
