@@ -13,7 +13,7 @@ export function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/email-sent" element={<Successfully />} />
+          <Route path="/emailsent" element={<Successfully />} />
         </Routes>
       </BrowserRouter>
     </>
