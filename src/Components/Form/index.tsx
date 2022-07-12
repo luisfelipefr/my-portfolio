@@ -12,7 +12,7 @@ export function Form() {
             action="https://formsubmit.co/luis@luigifr.com"
             method="POST"
           >
-            <input type="hidden" name="_next" value="https://luigifr.com/email-sent"></input>
+            <input type="hidden" name="_next" value="https://luigifr.com/emailsent"></input>
             <input type="hidden" name="_subject" value="Portfolio website luigifr.com"></input>
             <input type="hidden" name="_captcha" value="false"></input>
             <div className="form_input">
