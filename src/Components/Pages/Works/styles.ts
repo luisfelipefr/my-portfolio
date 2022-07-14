@@ -4,7 +4,7 @@ export const Container = styled.div`
   margin: 0 auto;
   max-width: 85.75rem;
   min-height: 100vh;
-  color: var(--text-color);
+  color: var(--text-title);
   display: flex;
   flex-direction: column;
   justify-content: center;
