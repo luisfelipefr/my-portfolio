@@ -54,7 +54,7 @@ export const Container = styled.div`
       margin-top: 3.12rem;
       border: 2px solid var(--green);
       background-color: var(--green);
-      color: white;
+      color: var(--text-body);
       text-transform: uppercase;
       float: right;
       cursor: pointer;

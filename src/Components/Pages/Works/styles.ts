@@ -4,7 +4,7 @@ export const Container = styled.div`
   margin: 0 auto;
   max-width: 85.75rem;
   min-height: 100vh;
-  color: #ffffff;
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,8 +14,6 @@ justify-content: center;
     color: var(--green);
   }
   div.cardContainer {
-
-   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
