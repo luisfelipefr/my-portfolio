@@ -32,7 +32,6 @@ export const Container = styled.div<Bg>`
     );
     transform: translateY(75%);
     transition: transform 500ms ease;
-    
   }
 
   .card-content > *:not(.card-title) {
@@ -103,6 +102,15 @@ export const Container = styled.div<Bg>`
     }
     .card-content > *:not(.card-title) {
       transition-delay: 300ms;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
     }
   }
 `;
