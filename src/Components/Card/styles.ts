@@ -26,7 +26,7 @@ export const Container = styled.div<Bg>`
     flex-direction: column;
     align-items: flex-start;
     padding: var(--padding);
-    min-height: 20rem;
+    min-height: 21rem;
     min-width: 23rem;
     background: linear-gradient(
       hsl(0 0% 0% / 0),
