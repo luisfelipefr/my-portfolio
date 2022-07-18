@@ -9,13 +9,14 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-left: 1.5rem;
-justify-content: center;
+  justify-content: center;
   span {
     color: var(--green);
   }
-  div.cardContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+`;
+
+export const CardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 `;
