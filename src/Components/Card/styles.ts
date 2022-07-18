@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Background } from "./../Pages/Home/styles";
+import { FiExternalLink, FiGithub } from "react-icons/fi";
 interface Bg {
   Img: string | undefined;
 }
@@ -16,6 +17,8 @@ export const Container = styled.div<Bg>`
   overflow: hidden;
 
   transition: transform 500ms ease;
+
+  border: 1px solid var(--green);
 
   .card-content {
     display: flex;
@@ -64,16 +67,14 @@ export const Container = styled.div<Bg>`
     margin: 2rem 0;
   }
 
-  .button {
-    display: inline-block;
-    text-decoration: none;
-    background: var(--green);
-    color: var(--text-color);
-    padding: 0.5em 1.25em;
-    border-radius: 0.5rem;
-    :hover,
-    :focus {
-      filter: brightness(0.8);
+  .card-description {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    span {
+      color: var(--green);
+      font-size: 0.8rem;
+      font-weight: 500;
     }
   }
 
@@ -112,5 +113,34 @@ export const Container = styled.div<Bg>`
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
+  }
+`;
+
+export const Links = styled.div`
+  display: flex;
+  a {
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+`;
+
+export const GithubIcon = styled(FiGithub)`
+  color: var(--shape);
+  width: 1.25rem;
+  height: 1.25rem;
+  :hover,
+  :focus {
+    color: var(--green-light);
+
+  }
+`;
+
+export const ExternalLinkIcon = styled(FiExternalLink)`
+  color: var(--shape);
+  width: 1.25rem;
+  height: 1.25rem;
+  :hover,
+  :focus {
+    color: var(--green-light);
   }
 `;
