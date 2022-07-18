@@ -6,7 +6,8 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --green: #1AB86B;
     --green-light: #13CF3F;
-
+    --green-tint: rgba(100,255,218,0.1);
+    
     --blue-light: #6933FF;
 
     --text-title: #FFFFFF;
