@@ -1,7 +1,6 @@
-import { FaBars } from "react-icons/fa";FaBars
+import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
-
 
 interface INav {
   click: boolean;
@@ -21,7 +20,6 @@ export const Nav = styled.div`
   box-shadow: 0px 2px 11px 2px #000;
   /* Third Nav */
   /* justify-content: flex-start; */
- 
 `;
 
 export const NavLogo = styled.a`
@@ -34,7 +32,7 @@ export const NavLogo = styled.a`
   padding: 0 1rem;
   margin-right: 1rem;
   height: 100%;
-  
+
   &:hover {
     color: var(--green);
   }
@@ -68,9 +66,7 @@ export const Bars = styled(FaBars)`
   margin-top: 0.5rem;
   color: var(--shape);
   @media screen and (max-width: 768px) {
-    
     display: block;
-    
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
@@ -81,7 +77,6 @@ export const Bars = styled(FaBars)`
     color: var(--green);
   }
 `;
-
 
 export const NavMenu = styled.ul<INav>`
   display: flex;
@@ -95,7 +90,7 @@ export const NavMenu = styled.ul<INav>`
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${(props) => (props.click ? 0 : '-100%')};
+    left: ${(props) => (props.click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
     background: var(--background);
