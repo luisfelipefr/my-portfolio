@@ -22,7 +22,7 @@ i18next
     },
     // react: { useSuspense: false },
     backend: {
-      loadPath: "/i18n/locales/{{lng}}/translation.json",
+      loadPath: "/src/i18n/locales/{{lng}}/translation.json",
     },
   });
 
