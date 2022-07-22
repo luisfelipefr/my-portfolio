@@ -5,6 +5,7 @@ import { GlobalStyle } from "./styles/global";
 import { HomePage } from "./pages/HomePage";
 import { Successfully } from "./Components/Pages/Sucessfully";
 import { Footer } from "./Components/Footer";
+import { Translation } from "react-i18next";
 
 export function App() {
   return (
