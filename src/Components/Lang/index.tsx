@@ -12,9 +12,9 @@ const languages = [
     country_code: "gb",
   },
   {
-    code: "pt-BR",
+    code: "pt-br",
     name: "Português do Brasil",
-    country_code: "pt-BR",
+    country_code: "pt-br",
   },
 ];
 
@@ -39,6 +39,7 @@ export function Lang() {
   const closeMenu = () => setClick(false);
   const handleClickLang = () => setClick(!click);
 
+  console.log(currentLanguageCode);
   return (
     <LangSelect click={click} onClick={handleClickLang}>
         <div className="dropdown">
@@ -74,8 +75,7 @@ export function Lang() {
                     i18next.changeLanguage(code);
                     closeMenu
                   }}
-                  
-                >
+                  >
                   {name}
                 </a>
               </li>
