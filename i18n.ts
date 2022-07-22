@@ -20,7 +20,7 @@ i18n
     },
     // react: { useSuspense: false },
     backend: {
-      loadPath: '/src/i18n/locales/{{lng}}/translation.json',
+      loadPath: '/public/i18n/locales/{{lng}}/translation.json',
     },
   })
 

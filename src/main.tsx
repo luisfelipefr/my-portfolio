@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { App } from "./App";
 import { Loading } from "./styles/global";
-import "./i18n/i18n";
+import "../i18n";
 
 const loadingMarkup = (
   <Loading>
