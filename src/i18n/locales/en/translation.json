@@ -1,0 +1,53 @@
+{
+  "translation": {
+    "home": {
+      "p": "Hi, my name is",
+      "title": "Hi, my name is",
+      "title2": "Luis Felipe.",
+      "subtitle": "I build things for the web.",
+      "psubtitle": "I'm a Front-end developer."
+    },
+    "about": {
+      "about": "About Me",
+      "text1": "Hello! My name is Luis, I'm a Front-End Developer located in Brazil.",
+      "text2": {
+        "first": "I have a passion for building",
+        "span1": "responsive, acessible",
+        "secondary": "applications, always creating",
+        "span2": "dynamic",
+        "third": "and",
+        "span3": "intuitive user experiences."
+      },
+      "text3": " Here are a few technologies I've been working with recently:"
+    },
+    "work": {
+      "work": "Some Things I've Built",
+      "card1": {
+        "title": "Linktree",
+        "text": "The web app for visualizing my personalized linktree. View my social medias and topic links"
+      },
+      "card2": {
+        "title": "coming soon",
+        "text": ""
+      },
+      "card-description-span": "Technologies:"
+    },
+    "contact": {
+      "contact": "Get in Touche",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your message...",
+        "submit": "send"
+      }
+    },
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "work": "Work",
+      "contact": "Contact"
+    }
+  },
+  "language": "English" 
+}
