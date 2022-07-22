@@ -4,6 +4,7 @@ import { Navbar } from "./Components/Navbar";
 import { GlobalStyle } from "./styles/global";
 import { HomePage } from "./pages/HomePage";
 import { Successfully } from "./Components/Pages/Sucessfully";
+import { Footer } from "./Components/Footer";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
           <Route path="/emailsent" element={<Successfully />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }
