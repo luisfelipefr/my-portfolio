@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Container } from "./styles";
 
 export function Form() {
-  useState
+  const { t } = useTranslation();
   return (
     <Container>
       <div className="Form">
@@ -20,7 +21,7 @@ export function Form() {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Nome"
+                placeholder={t('translation.contact.form.name')}
                 required
               />
               <span className="error"></span>
@@ -30,7 +31,7 @@ export function Form() {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="e-mail"
+                placeholder={t('translation.contact.form.email')}
                 required
               />
               <span className="error"></span>
@@ -41,7 +42,7 @@ export function Form() {
                 type="text"
                 id="subject"
                 name="subject"
-                placeholder="Assunto"
+                placeholder={t('translation.contact.form.subject')}
                 required
               />
             </div>
@@ -51,12 +52,12 @@ export function Form() {
                 className="input_your-messenger"
                 id="message"
                 name="message"
-                placeholder="Sua mensagem..."
+                placeholder={t('translation.contact.form.message')}
                 required
               />
             </div>
             <div className="form_button">
-              <button type="submit">enviar</button>
+              <button type="submit">{t('translation.contact.form.submit')}</button>
             </div>
           </form>
         </div>

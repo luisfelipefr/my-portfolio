@@ -1,25 +1,26 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { ToggleList } from "../../ToggleList";
 import { Container, Text } from "./styles";
 
 export function About() {
+  const { t } = useTranslation();
+
   return (
     <Container id="About">
       <h1>
-        <span>02.</span> About Me
+        <span>02.</span> {t("translation.about.about")}
       </h1>
       <div>
+        <Text>{t("translation.about.text1")}</Text>
         <Text>
-          Hello! My name is Luis, I&rsquo;m a Front-End Developer located in
-          Brazil.
+          {t("translation.about.text2.first")}{" "}
+          <span>{t("translation.about.text2.span1")}</span>{" "}
+          {t("translation.about.text2.secondary")} <span>{t("translation.about.text2.span2")}</span> {t("translation.about.text2.third")}{" "}
+          <span>{t('translation.about.text2.span3')}</span>
         </Text>
         <Text>
-          I have a passion for <span>responsive, accessible</span> apps and
-          creating <span>dynamic</span> and{" "}
-          <span>intuitive user experiences.</span>
-        </Text>
-        <Text>
-          Here are a few technologies I&rsquo;ve been working with recently:
+          {t("translation.about.text3")}
         </Text>
         <div className="list">
           <ToggleList Text="> JavaScript(ES6+)" />

@@ -3,6 +3,7 @@ import { Container, ExternalLinkIcon, GithubIcon, Links } from "./styles";
 import BackgroundCard from "../../../assets/images/imgTest.svg";
 import { Technologies } from "./../ToggleList/styles";
 import { FiGithub } from "react-icons/fi";
+import { useTranslation } from "react-i18next";
 interface CardProps {
   title: string;
   text?: string;
@@ -13,13 +14,14 @@ interface CardProps {
 }
 
 export function Card(props: CardProps) {
+  const { t } = useTranslation();
   return (
     <Container Img={props.ImgCard}>
       <div className="card-content">
         <h1 className="card-title">{props.title}</h1>
         <p className="card-body">{props.text}</p>
         <p className="card-description">
-          <span>Technologies:</span> {props.technologies}
+          <span>{t('translation.work.card-description-span')}</span> {props.technologies}
         </p>
         <Links>
           <a

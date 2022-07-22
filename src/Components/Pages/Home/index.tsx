@@ -1,15 +1,15 @@
 import React from "react";
 import { Background, Container, Subtitle, Title } from "./styles";
-
+import { useTranslation } from "react-i18next";
 export function Home() {
+  const {t} = useTranslation();
   return (
     <Background>
       <Container id="Home">
-        <p className="styled">introducing</p>
-        <Title className="titleStyled">Hello</Title>
-        <Title>I'm Luis Felipe.</Title>
-        <Subtitle>I build things for the web.</Subtitle>
-        <p>I&#x2019;m a Front-end developer.</p>
+        <p className="styled">{t('translation.home.p')}</p>
+        <Title>{t('translation.home.title2')}</Title>
+        <Subtitle>{t('translation.home.subtitle')}</Subtitle>
+        <p>{t('translation.home.psubtitle')}</p>
       </Container>
     </Background>
   );

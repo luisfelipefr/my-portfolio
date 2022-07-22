@@ -53,11 +53,14 @@ export const NavLink = styled.a`
     &:hover {
       color: var(--green);
       transition: all 0.3s ease;
+
     }
   }
   &:hover {
     color: var(--green);
-    transition: all 0.3s ease;
+    border-bottom: 2px solid #4b59f7;
+
+    transition: color 0.3s ease;
   }
 `;
 
@@ -140,9 +143,7 @@ export const MobileIcon = styled.div`
 export const NavItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
-  &:hover {
-    border-bottom: 2px solid #4b59f7;
-  }
+   
   @media screen and (max-width: 768px) {
     width: 100%;
     &:hover {

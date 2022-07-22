@@ -1,10 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Lang } from "../Lang";
 
-import { Nav, NavLink,NavMenu, MobileIcon, NavItem, NavLogo } from "./styles";
+import { Nav, NavLink, NavMenu, MobileIcon, NavItem, NavLogo } from "./styles";
+
 
 
 export function Navbar() {
+ 
+  
+  const { t } = useTranslation();
   const [click, setClick] = useState(false);
   const drawerRef = useRef(null);
   const [button, setButton] = useState(true);
@@ -27,34 +33,39 @@ export function Navbar() {
   window.addEventListener("resize", showButton);
   return (
     <Nav>
-      <NavLogo ref={drawerRef} onClick={closeMobileMenu} >
+      <NavLogo ref={drawerRef} onClick={closeMobileMenu}>
         <h1>LF</h1>
       </NavLogo>
       <MobileIcon onClick={handleClick}>
         {click ? <FaTimes /> : <FaBars />}
       </MobileIcon>
-      <NavMenu click={click} onClick={handleClick} >
+      <NavMenu click={click} >
         <NavItem>
           <NavLink href="/#Home" onClick={closeMobileMenu}>
-            01.Home
+            01.{t("translation.navbar.home")}
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/#About" onClick={closeMobileMenu}>
-            02.About
+            02.{t("translation.navbar.about")}
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/#Work" onClick={closeMobileMenu}>
-            03.Work
+            03.{t("translation.navbar.work")}
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/#Contact" onClick={closeMobileMenu}>
-            04.Contact
+            04.{t("translation.navbar.contact")}
           </NavLink>
         </NavItem>
+        <NavItem>
+        <Lang/>
+        </NavItem>
       </NavMenu>
+
+      
     </Nav>
   );
 }

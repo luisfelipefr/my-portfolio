@@ -17,7 +17,6 @@ export const Container = styled.div<Bg>`
   overflow: hidden;
 
   transition: transform 500ms ease;
-
   border: 1px solid var(--green);
 
   .card-content {
@@ -81,6 +80,8 @@ export const Container = styled.div<Bg>`
   :hover,
   :focus-within {
     transform: scale(1.05);
+
+    border: none;
 
     .card-title::after {
       transform: scaleX(1);

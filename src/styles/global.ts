@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -77,4 +77,34 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--green);
     border-radius: 0.5rem;
   }
+
+  
 `
+
+export const Loading = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background: #6C7A89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+.loader {
+  border: 8px solid var(--green-tint);
+  border-radius: 50%;
+  border-top: 8px solid var(--green);
+  width: 3rem;
+  height: 3rem;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+`;
