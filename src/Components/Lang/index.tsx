@@ -35,7 +35,7 @@ export function Lang() {
   const currentLanguageCode = Cookies.get("i18next") || "en";
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
   const { t } = useTranslation();
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
   const closeMenu = () => setClick(false);
   const handleClickLang = () => setClick(!click);
 
