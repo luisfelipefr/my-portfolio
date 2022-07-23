@@ -10,7 +10,6 @@ i18n
   .use(initReactI18next)
   .use(Backend)
   .init({
-    supportedLngs: ['en', 'pt-br'],
     fallbackLng: 'en',
     debug: false,
     // Options for language detector
