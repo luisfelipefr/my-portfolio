@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "../../Card";
 import { CardContainer, Container } from "./styles";
 import BackgroundCard from "../../../assets/images/imgTest.svg";
 import LinkBackgroundCard from "../../../assets/images/linkst.png";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next"
+import ScrollReveal from "scrollreveal";
+import { initScrollReveal } from "../../../../InitScrollReveal";
+
 export function Works() {
+  initScrollReveal();
   const { t } = useTranslation();
   return (
-    <Container id="Work">
+    <Container id="Work" className="delaySmallReveal">
       <h1>
         <span>03.</span> {t("translation.work.work")}
       </h1>

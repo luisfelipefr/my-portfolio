@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { initScrollReveal } from "../../../InitScrollReveal";
 import { Container } from "./styles";
 
 export function Form() {
+  initScrollReveal();
   const { t } = useTranslation();
   return (
     <Container>
@@ -16,7 +18,7 @@ export function Form() {
             <input type="hidden" name="_next" value="https://luigifr.com/emailsent"></input>
             <input type="hidden" name="_subject" value="Portfolio website luigifr.com"></input>
             <input type="hidden" name="_captcha" value="false"></input>
-            <div className="form_input">
+            <div className="form_input delayMediumReveal">
               <input
                 type="text"
                 id="name"
@@ -26,7 +28,7 @@ export function Form() {
               />
               <span className="error"></span>
             </div>
-            <div className="form_input">
+            <div className="form_input delayLargeReveal">
               <input
                 type="email"
                 id="email"
@@ -37,7 +39,7 @@ export function Form() {
               <span className="error"></span>
             </div>
 
-            <div className="form_input">
+            <div className="form_input delayExtraBigReveal">
               <input
                 type="text"
                 id="subject"
@@ -47,7 +49,7 @@ export function Form() {
               />
             </div>
             
-            <div className="form_input">
+            <div className="form_input delayExtraBigBigReveal">
               <textarea
                 className="input_your-messenger"
                 id="message"
@@ -56,7 +58,7 @@ export function Form() {
                 required
               />
             </div>
-            <div className="form_button">
+            <div className="form_button intervalCardReveal">
               <button type="submit">{t('translation.contact.form.submit')}</button>
             </div>
           </form>
