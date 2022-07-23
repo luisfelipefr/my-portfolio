@@ -9,7 +9,7 @@ export function Works() {
   return (
     <Container id="Work">
       <h1>
-        <span>03.</span> Some Things I&#x2019;ve Built
+        <span>03.</span> {t("translation.work.work")}
       </h1>
       <CardContainer>
         <Card
