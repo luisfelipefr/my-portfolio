@@ -17,7 +17,7 @@ export function About() {
       </h1>
       <div>
         <Text>{t("translation.about.text1")}</Text>
-        <Text className="delayLargeReveal">
+        <Text>
           {t("translation.about.text2.first")}{" "}
           <span>{t("translation.about.text2.span1")}</span>{" "}
           {t("translation.about.text2.secondary")}{" "}
@@ -26,7 +26,7 @@ export function About() {
           <span>{t("translation.about.text2.span3")}</span>
         </Text>
         <Text>{t("translation.about.text3")}</Text>
-        <div className="list delayExtraBigReveal">
+        <div className="list">
           <ToggleList  Text="> JavaScript(ES6+)" />
           <ToggleList Text="> TypeScript" />
           <ToggleList Text="> Styled-component" />
