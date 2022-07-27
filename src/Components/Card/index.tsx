@@ -9,8 +9,8 @@ interface CardProps {
   text?: string;
   technologies: string;
   ImgCard: string;
-  GithubUrl: string;
-  ExternalUrl: string;
+  GithubUrl?: string;
+  ExternalUrl?: string;
 }
 
 export function Card(props: CardProps) {
