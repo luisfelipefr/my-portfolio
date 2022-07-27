@@ -29,8 +29,6 @@ export function Works() {
           title={t("translation.work.card2.title")}
           text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti praesentium sint repellat animi exercitationem, odit id alias voluptatum earum rerum illo aut ratione ducimus molestias obcaecati sit laborum, numquam minima"
           technologies="..."
-          GithubUrl="#"
-          ExternalUrl="#"
         />
       </CardContainer>
     </Container>
