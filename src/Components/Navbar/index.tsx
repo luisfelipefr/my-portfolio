@@ -5,11 +5,7 @@ import { Lang } from "../Lang";
 
 import { Nav, NavLink, NavMenu, MobileIcon, NavItem, NavLogo } from "./styles";
 
-
-
 export function Navbar() {
- 
-  
   const { t } = useTranslation();
   const [click, setClick] = useState(false);
   const drawerRef = useRef(null);
@@ -39,7 +35,7 @@ export function Navbar() {
       <MobileIcon onClick={handleClick}>
         {click ? <FaTimes /> : <FaBars />}
       </MobileIcon>
-      <NavMenu click={click} >
+      <NavMenu click={click}>
         <NavItem>
           <NavLink href="/#Home" onClick={closeMobileMenu}>
             01.{t("translation.navbar.home")}
@@ -61,11 +57,9 @@ export function Navbar() {
           </NavLink>
         </NavItem>
         <NavItem>
-        <Lang/>
+          <Lang />
         </NavItem>
       </NavMenu>
-
-      
     </Nav>
   );
 }
