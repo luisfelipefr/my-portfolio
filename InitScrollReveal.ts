@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import ScrollReveal from "scrollreveal";
 export function initScrollReveal() {
   const sr = ScrollReveal({
@@ -5,11 +6,12 @@ export function initScrollReveal() {
     distance: "50px",
     duration: 2000,
   });
-
-  sr.reveal(".delaySmallReveal", { delay: 200 });
-  sr.reveal(".delayMediumReveal", { delay: 300 });
-  sr.reveal(".delayLargeReveal", { delay: 400 });
-  sr.reveal(".delayExtraBigReveal", { delay: 600 });
-  sr.reveal(".delayExtraBigBigReveal", { delay: 700 });
-  sr.reveal(".intervalCardReveal", { interval: 400 });
+  useEffect(() => {
+    sr.reveal(".delaySmallReveal", { delay: 200, reset: false });
+    sr.reveal(".delayMediumReveal", { delay: 300, reset: false });
+    sr.reveal(".delayLargeReveal", { delay: 400, reset: false });
+    sr.reveal(".delayExtraBigReveal", { delay: 600, reset: false });
+    sr.reveal(".delayExtraBigBigReveal", { delay: 700, reset: false });
+    sr.reveal(".intervalCardReveal", { interval: 400, reset: false });
+  }, [sr.reveal]);
 }
