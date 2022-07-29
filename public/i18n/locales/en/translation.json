@@ -47,7 +47,12 @@
       "about": "About",
       "work": "Work",
       "contact": "Contact"
+    },
+    "successfully": {
+      "thank": "Thanks!",
+      "p": "The form was submitted successfully.",
+      "a": "Return"
     }
   },
-  "language": "English" 
+  "language": "English"
 }
