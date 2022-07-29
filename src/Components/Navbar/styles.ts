@@ -22,10 +22,10 @@ export const Nav = styled.div`
   /* justify-content: flex-start; */
 `;
 
-export const NavLogo = styled.a`
+export const NavLogo = styled.div`
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
-  color: #fff;
+  color: var(--text-body);
   display: flex;
   align-items: center;
   text-decoration: none;
