@@ -7,8 +7,8 @@ export function Successfully() {
   return (
     <Container>
       <Card>
-        <h1>{t("translation.successfully.thank")}</h1>
-        <p>{t("translation.successfully.p")}</p>
+        <h1>Thanks!</h1>
+        <p>The form was submitted successfully.</p>
         <a href="/" tabIndex={1}>
           Voltar
         </a>
