@@ -17,3 +17,7 @@ export const Container =  styled.div`
 
   min-height: 80px;
 `;
+
+export const Copyright = styled.p`
+  font-size: 0.8rem;
+`;
