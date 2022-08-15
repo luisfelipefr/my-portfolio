@@ -38,22 +38,22 @@ export function Navbar() {
       <NavMenu click={click}>
         <NavItem>
           <NavLink href="/#Home" onClick={closeMobileMenu}>
-            01.{t("translation.navbar.home")}
+            {t("translation.navbar.home")}
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/#About" onClick={closeMobileMenu}>
-            02.{t("translation.navbar.about")}
+            {t("translation.navbar.about")}
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/#Work" onClick={closeMobileMenu}>
-            03.{t("translation.navbar.work")}
+            {t("translation.navbar.work")}
           </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/#Contact" onClick={closeMobileMenu}>
-            04.{t("translation.navbar.contact")}
+            {t("translation.navbar.contact")}
           </NavLink>
         </NavItem>
         <NavItem>
