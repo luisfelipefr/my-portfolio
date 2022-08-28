@@ -29,7 +29,7 @@ export const Container = styled.div<Bg>`
     min-width: 23rem;
     background: linear-gradient(
       hsl(0 0% 0% / 0),
-      hsl(20 0% 0% / 0.3) 20%,
+      hsl(20 0% 0% / 0.3) 10%,
       hsl(0 0% 0% / 1)
     );
     transform: translateY(75%);

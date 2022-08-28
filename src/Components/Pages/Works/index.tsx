@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Card } from "../../Card";
 import { CardContainer, Container } from "./styles";
-import BackgroundCard from "../../../assets/images/imgTest.svg";
-import LinkBackgroundCard from "../../../assets/images/linkst.png";
+import pomoBackgroundCard from "../../../assets/images/move-pomodor.png";
+import linktreeBackgroundCard from "../../../assets/images/linkst.png";
 import { useTranslation } from "react-i18next";
 import ScrollReveal from "scrollreveal";
 
@@ -15,7 +15,7 @@ export function Works() {
       </h1>
       <CardContainer>
         <Card
-          ImgCard={LinkBackgroundCard}
+          ImgCard={linktreeBackgroundCard}
           title={t("translation.work.card1.title")}
           text={t("translation.work.card1.text")}
           GithubUrl="https://github.com/luisfelipefr/my-linktree"
@@ -23,10 +23,12 @@ export function Works() {
           technologies="React, TypeScript, Styled-Components"
         />
         <Card
-          ImgCard={BackgroundCard}
+          ImgCard={pomoBackgroundCard}
           title={t("translation.work.card2.title")}
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti praesentium sint repellat animi exercitationem, odit id alias voluptatum earum rerum illo aut ratione ducimus molestias obcaecati sit laborum, numquam minima"
-          technologies="..."
+          text={t("translation.work.card2.text")}
+          GithubUrl="https://github.com/luisfelipefr/pomofocus-next"
+          ExternalUrl="https://pomo.luigifr.com/"
+          technologies="React, Next.js, TypeScript"
         />
       </CardContainer>
     </Container>
