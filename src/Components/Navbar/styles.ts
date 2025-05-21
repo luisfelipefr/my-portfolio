@@ -53,12 +53,11 @@ export const NavLink = styled.a`
     &:hover {
       color: var(--green);
       transition: all 0.3s ease;
-
     }
   }
   &:hover {
     color: var(--green);
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid var(--green);
 
     transition: color 0.3s ease;
   }
