@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "./style";
-import TwitterImg from "../icons/twitter-brands.svg";
-import InstagramImg from "../icons/instagram-brands.svg";
-import GitHubImg from "../icons/github-brands.svg";
-import linkedinImg from "../icons/linkedin-brands.svg"
-import CodepenImg from "../icons/codepen-brands.svg";
+import TwitterImg from "../../assets/icons/twitter-brands.svg";
+import InstagramImg from "../../assets/icons/instagram-brands.svg";
+import GitHubImg from "../../assets/icons/github-brands.svg";
+import linkedinImg from "../../assets/icons/linkedin-brands.svg"
+import CodepenImg from "../../assets/icons/codepen-brands.svg";
 
 export function SocialMedia() {
   return (
