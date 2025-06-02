@@ -29,6 +29,10 @@
         "title": "Move.pomodor",
         "text": "Um aplicativo que une a técnica de pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador."
       },
+      "card3": {
+        "title": "PDFInsight",
+        "text":  "Esta ferramenta ajudar muita gente que trabalha com gestão, análise ou triagem de documentos PDF — sejam currículos, relatórios, portfólios, contratos ou qualquer outro tipo de arquivo."
+      },
       "card-description-span": "Tecnologias:"
     },
     "contact": {
