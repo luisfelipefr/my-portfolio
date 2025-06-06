@@ -23,11 +23,11 @@ export function About() {
         </Text>
         <Text>{t("translation.about.text3")}</Text>
         <div className="list">
+          <ToggleList Text="> ReactJS" />
+          <ToggleList Text="> Angular" />
           <ToggleList Text="> JavaScript(ES6+)" />
           <ToggleList Text="> TypeScript" />
-          <ToggleList Text="> Styled-component" />
-          <ToggleList Text="> React Native" />
-          <ToggleList Text="> ReactJS" />
+          <ToggleList Text="> Python" />
         </div>
       </div>
     </Container>

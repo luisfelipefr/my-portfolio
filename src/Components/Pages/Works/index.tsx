@@ -25,6 +25,7 @@ export function Works() {
           title={t("translation.work.card3.title")}
           text={t("translation.work.card3.text")}
           GithubUrl="https://github.com/luisfelipefr/PDFInsight"
+          ExternalUrl="https://github.com/luisfelipefr/PDFInsight"
           technologies="Python, Pyppeteer, pypdf, OpenAI API, Shell Script."
         />
       </CardContainer>

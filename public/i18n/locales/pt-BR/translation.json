@@ -2,13 +2,13 @@
   "translation": {
     "home": {
       "p": "Olá, meu nome é",
-      "title": "Ola, meu nome é",
+      "title": "Olá, meu nome é",
       "title2": "Luis Felipe.",
-      "psubtitle": "Eu sou um desenvolvedor front-end."
+      "psubtitle": "Sou um desenvolvedor front-end."
     },
     "about": {
       "about": "Sobre mim",
-      "text1": "Ola! meu nome é Luis, Eu sou um desenvolvedor front-end, Atualmente estou situado no Brasil.",
+      "text1": "Olá! Meu nome é Luis. Sou um desenvolvedor front-end.",
       "text2": {
         "first": "Tenho paixão por construir aplicativos",
         "span1": "responsivos e acessíveis,",
@@ -20,7 +20,7 @@
       "text3": "Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:"
     },
     "work": {
-      "work": "Meus Projetos",
+      "work": "Meus projetos",
       "card1": {
         "title": "Linktree",
         "text": "Um aplicativo web para visualizar minha árvore de links personalizada. Veja minhas redes sociais e meus links principais."
@@ -31,7 +31,7 @@
       },
       "card3": {
         "title": "PDFInsight",
-        "text":  "Esta ferramenta ajudar muita gente que trabalha com gestão, análise ou triagem de documentos PDF — sejam currículos, relatórios, portfólios, contratos ou qualquer outro tipo de arquivo."
+        "text":  "Esta ferramenta ajuda quem trabalha com gestão, análise ou triagem de documentos PDF — sejam currículos, relatórios, portfólios, contratos ou qualquer outro tipo de arquivo."
       },
       "card-description-span": "Tecnologias:"
     },
@@ -46,7 +46,7 @@
       }
     },
     "navbar": {
-      "home": "Inicio",
+      "home": "Início",
       "about": "Sobre mim",
       "work": "Projetos",
       "contact": "Contato"
@@ -57,6 +57,6 @@
       "a": "Voltar"
     }
   },
-  "language": "Português do Brasil",
+  "language": "Português (Brasil)",
   "copyright": "Copyright © 2025 Luigifr. Todos os direitos reservados."
 }
